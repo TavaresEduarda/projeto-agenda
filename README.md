@@ -1,64 +1,42 @@
+# Personal Agenda – Post-it Notes App
 
-# 📅 Agenda Digital em Post-its
+A personal agenda web application with a minimalist design that allows users to create, view, and delete post-it notes with date, time, and description.  
+All data is stored locally in the browser using **Local Storage**, with no backend required.
 
-## 📌 Sobre o Projeto
-Este projeto foi desenvolvido como parte de um **desafio de mercado de trabalho** realizado no curso técnico.  
-A proposta simulou um ambiente real, no qual um aluno atuou como **cliente** e outro como **desenvolvedor**.
+## 📌 Overview
 
-O cliente solicitou o desenvolvimento de uma **agenda digital de uso pessoal**, no formato de **post-its**, para organização da rotina diária.
+This project was developed to meet a client request for a **simple, functional, and personal-use agenda**.  
+The main focus was to provide a clean interface and a practical, easy-to-use experience.
 
----
+## ✨ Features
 
-## 🎯 Objetivo
-Desenvolver uma aplicação web simples e intuitiva que permita ao usuário:
+- Create post-it notes with:
+  - Date
+  - Time
+  - Description
+- Delete notes individually
+- Automatic data saving
+- Minimalist and responsive design
 
-- Organizar compromissos
-- Registrar tarefas futuras
-- Visualizar atividades em formato de board
-- Manter os dados salvos localmente no navegador
+## 🛠️ Technologies Used
 
----
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
+- **Bootstrap 5**
+- **Local Storage API**
 
-## ✨ Funcionalidades
-- ➕ Adicionar post-its com:
-  - 📅 Data
-  - ⏰ Horário
-  - 📝 Descrição
-- 🗑️ Excluir post-its individualmente
-- 💾 Armazenamento automático utilizando **localStorage**
-- 📆 Validação de data:
-  - Não permite adicionar eventos em datas passadas
-- 🎨 Interface com design minimalista e cores escuras
-- 📱 Layout responsivo com **Bootstrap**
+## 🚀 How It Works
 
----
+The user adds a new note by entering the date, time, and description.  
+The note is instantly displayed and automatically saved in Local Storage.  
+When the page is reloaded, all previously saved notes are restored.
 
-## 🛠️ Tecnologias Utilizadas
-- **HTML5** — estrutura da aplicação  
-- **CSS3** — estilização  
-- **JavaScript (ES6)** — lógica e manipulação do DOM  
-- **Bootstrap 5** — responsividade e layout  
-- **localStorage** — persistência de dados no navegador  
+## 📱 Responsiveness
 
----
+The interface uses **Bootstrap** to ensure a consistent experience across different screen sizes, including mobile and desktop devices.
 
-## 💡 Decisão Técnica
-Por se tratar de uma aplicação de **uso pessoal**, sem necessidade de autenticação, múltiplos usuários ou sincronização entre dispositivos, optou-se por não utilizar backend ou banco de dados.
+## 📄 License
 
-O **localStorage** foi adotado como solução de armazenamento, atendendo plenamente aos requisitos do projeto com simplicidade e eficiência.
+This project is intended for personal and educational use and can be adapted as needed.
 
----
-
-## 🧠 Aprendizados
-- Interpretação de requisitos do cliente
-- Simulação de um cenário real de desenvolvimento
-- Manipulação do DOM com JavaScript
-- Validação de formulários
-- Persistência de dados no navegador
-- Organização de código front-end
-- Aplicação de design minimalista
-
----
-
-## 👩‍💻 Autoria
-Projeto desenvolvido como atividade acadêmica em um **curso técnico**, no papel de **desenvolvedora**, a partir de um briefing fornecido por outro aluno no papel de **cliente**.
