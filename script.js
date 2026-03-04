@@ -1,4 +1,6 @@
 let posts = JSON.parse(localStorage.getItem("posts")) || [];
+const dateInput = document.getElementById("date");
+dateInput.min = new Date().toISOString().split("T")[0];
 
 function savePost() {
       localStorage.setItem("posts", JSON.stringify(posts));
@@ -37,6 +39,18 @@ function addPost() {
     return;
   }
 
+    const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const selectedDate = new Date(date);
+
+  if (selectedDate < today) {
+    alert("Não é possível adicionar eventos em datas passadas.");
+    return;
+  } if (selectedDate > new Date("2030-12-31")) {
+    alert("Não é possível adicionar eventos em datas futuras muito longe.");
+    return;
+  }
 
   posts.push({ date, time, description });
   savePost();
