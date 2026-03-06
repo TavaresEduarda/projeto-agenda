@@ -36,7 +36,20 @@ When the page is reloaded, all previously saved notes are restored.
 
 The interface uses **Bootstrap** to ensure a consistent experience across different screen sizes, including mobile and desktop devices.
 
+## 🔮 Future Improvements
+
+Possible future improvements for the project include:
+
+- Integration with a **database** to allow data storage outside the browser
+- **User authentication** so each user can have their own agenda
+- Ability to **edit existing notes**
+- **Search and filter** notes by date
+- Option to **categorize notes** (work, personal, reminders, etc.)
+- Cloud synchronization so notes can be accessed from different devices
+- Dark mode for improved accessibility and user preference
+
 ## 📄 License
 
 This project is intended for personal and educational use and can be adapted as needed.
 
+---
